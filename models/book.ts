@@ -8,4 +8,4 @@ const BookSchema: Schema = new Schema({
   updatedAt: { type: Date, default: Date.now }
 });
 
-export default mongoose.model('books', BookSchema);
+export const Books = mongoose.model('books', BookSchema);
